@@ -7,3 +7,5 @@ I used 5 different machine learning techniques on 4 large databases from UC Irvi
 I then wrote a comprehensive paper with detailed description of the experiments conducted.
 
 The paper can be viewed [here](https://awesomesup.github.io/Personal-Project-ML-Techniques-Paper/Sup_Learn%20algorithms%20comparison%20paper.pdf). 
+
+Please contact me at s1banerj@ucsd.edu for crediting and reproduction. 
