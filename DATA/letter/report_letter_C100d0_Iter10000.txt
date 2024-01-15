@@ -1,0 +1,110 @@
+Data file:C:/Users/prayu/LIDAR_UTILS/tmp/PROJECT/DATA/letter/letter-recognition.data
+Features not used:[]
+Categories transformed:
+[]
+
+---------------------------------------------------
+test data fraction=0.2
+Model: Linear SVC
+C=100.0 Iter=10000
+Training data:(15999, 16)Test data:(4000, 16)random_code:20
+Set1=0.652|CV Accuracy(5)=0.639, CV s.d.=0.036
+Training data:(15999, 16)Test data:(4000, 16)random_code:21
+Set2=0.552|CV Accuracy(5)=0.618, CV s.d.=0.039
+Training data:(15999, 16)Test data:(4000, 16)random_code:22
+Set3=0.586|CV Accuracy(5)=0.658, CV s.d.=0.05
+Average Accuracy=0.597
+Procesing time(sec)=123.32
+
+Model: Naive Bayes
+C=100.0 Iter=10000
+Training data:(15999, 16)Test data:(4000, 16)random_code:20
+Set1=0.708|CV Accuracy(5)=0.707, CV s.d.=0.009
+Training data:(15999, 16)Test data:(4000, 16)random_code:21
+Set2=0.698|CV Accuracy(5)=0.704, CV s.d.=0.011
+Training data:(15999, 16)Test data:(4000, 16)random_code:22
+Set3=0.71|CV Accuracy(5)=0.708, CV s.d.=0.005
+Average Accuracy=0.705
+Procesing time(sec)=0.13
+
+Model: Logistic Regression
+C=100.0 Iter=10000
+Training data:(15999, 16)Test data:(4000, 16)random_code:20
+Set1=0.723|CV Accuracy(5)=0.727, CV s.d.=0.008
+Training data:(15999, 16)Test data:(4000, 16)random_code:21
+Set2=0.726|CV Accuracy(5)=0.728, CV s.d.=0.008
+Training data:(15999, 16)Test data:(4000, 16)random_code:22
+Set3=0.732|CV Accuracy(5)=0.725, CV s.d.=0.004
+Average Accuracy=0.727
+Procesing time(sec)=1.8
+
+---------------------------------------------------
+test data fraction=0.5
+Model: Linear SVC
+C=100.0 Iter=10000
+Training data:(9999, 16)Test data:(10000, 16)random_code:50
+Set1=0.63|CV Accuracy(5)=0.644, CV s.d.=0.067
+Training data:(9999, 16)Test data:(10000, 16)random_code:51
+Set2=0.659|CV Accuracy(5)=0.634, CV s.d.=0.047
+Training data:(9999, 16)Test data:(10000, 16)random_code:52
+Set3=0.584|CV Accuracy(5)=0.637, CV s.d.=0.062
+Average Accuracy=0.624
+Procesing time(sec)=62.64
+
+Model: Naive Bayes
+C=100.0 Iter=10000
+Training data:(9999, 16)Test data:(10000, 16)random_code:50
+Set1=0.706|CV Accuracy(5)=0.701, CV s.d.=0.005
+Training data:(9999, 16)Test data:(10000, 16)random_code:51
+Set2=0.71|CV Accuracy(5)=0.702, CV s.d.=0.016
+Training data:(9999, 16)Test data:(10000, 16)random_code:52
+Set3=0.705|CV Accuracy(5)=0.707, CV s.d.=0.01
+Average Accuracy=0.707
+Procesing time(sec)=0.1
+
+Model: Logistic Regression
+C=100.0 Iter=10000
+Training data:(9999, 16)Test data:(10000, 16)random_code:50
+Set1=0.73|CV Accuracy(5)=0.724, CV s.d.=0.007
+Training data:(9999, 16)Test data:(10000, 16)random_code:51
+Set2=0.725|CV Accuracy(5)=0.727, CV s.d.=0.004
+Training data:(9999, 16)Test data:(10000, 16)random_code:52
+Set3=0.723|CV Accuracy(5)=0.728, CV s.d.=0.01
+Average Accuracy=0.726
+Procesing time(sec)=1.3
+
+---------------------------------------------------
+test data fraction=0.8
+Model: Linear SVC
+C=100.0 Iter=10000
+Training data:(3999, 16)Test data:(16000, 16)random_code:80
+Set1=0.688|CV Accuracy(5)=0.632, CV s.d.=0.039
+Training data:(3999, 16)Test data:(16000, 16)random_code:81
+Set2=0.628|CV Accuracy(5)=0.622, CV s.d.=0.063
+Training data:(3999, 16)Test data:(16000, 16)random_code:82
+Set3=0.6|CV Accuracy(5)=0.677, CV s.d.=0.053
+Average Accuracy=0.639
+Procesing time(sec)=22.64
+
+Model: Naive Bayes
+C=100.0 Iter=10000
+Training data:(3999, 16)Test data:(16000, 16)random_code:80
+Set1=0.706|CV Accuracy(5)=0.712, CV s.d.=0.005
+Training data:(3999, 16)Test data:(16000, 16)random_code:81
+Set2=0.714|CV Accuracy(5)=0.71, CV s.d.=0.029
+Training data:(3999, 16)Test data:(16000, 16)random_code:82
+Set3=0.701|CV Accuracy(5)=0.724, CV s.d.=0.019
+Average Accuracy=0.707
+Procesing time(sec)=0.08
+
+Model: Logistic Regression
+C=100.0 Iter=10000
+Training data:(3999, 16)Test data:(16000, 16)random_code:80
+Set1=0.727|CV Accuracy(5)=0.722, CV s.d.=0.011
+Training data:(3999, 16)Test data:(16000, 16)random_code:81
+Set2=0.726|CV Accuracy(5)=0.73, CV s.d.=0.009
+Training data:(3999, 16)Test data:(16000, 16)random_code:82
+Set3=0.721|CV Accuracy(5)=0.734, CV s.d.=0.024
+Average Accuracy=0.725
+Procesing time(sec)=0.83
+

@@ -1,0 +1,176 @@
+Data file:C:/Users/prayu/LIDAR_UTILS/tmp/PROJECT/DATA/covertype/cover.csv
+Features not used:[]
+Categories transformed:
+[]
+
+---------------------------------------------------
+test data fraction=0.2
+Model: Linear SVC
+C=10.0 Iter=10000
+Training data:(40000, 54)Test data:(10000, 54)random_code:20
+Set1=0.598|CV Accuracy(5)=0.596, CV s.d.=0.004
+Training data:(40000, 54)Test data:(10000, 54)random_code:21
+Set2=0.59|CV Accuracy(5)=0.597, CV s.d.=0.005
+Training data:(40000, 54)Test data:(10000, 54)random_code:22
+Set3=0.593|CV Accuracy(5)=0.597, CV s.d.=0.003
+Average Accuracy=0.594
+Procesing time(sec)=2.92
+
+Model: Naive Bayes
+C=10.0 Iter=10000
+Training data:(40000, 54)Test data:(10000, 54)random_code:20
+Set1=0.646|CV Accuracy(5)=0.648, CV s.d.=0.002
+Training data:(40000, 54)Test data:(10000, 54)random_code:21
+Set2=0.645|CV Accuracy(5)=0.648, CV s.d.=0.002
+Training data:(40000, 54)Test data:(10000, 54)random_code:22
+Set3=0.654|CV Accuracy(5)=0.645, CV s.d.=0.004
+Average Accuracy=0.648
+Procesing time(sec)=0.76
+
+Model: Logistic Regression
+C=10.0 Iter=10000
+Training data:(40000, 54)Test data:(10000, 54)random_code:20
+Set1=0.591|CV Accuracy(5)=0.594, CV s.d.=0.004
+Training data:(40000, 54)Test data:(10000, 54)random_code:21
+Set2=0.585|CV Accuracy(5)=0.594, CV s.d.=0.004
+Training data:(40000, 54)Test data:(10000, 54)random_code:22
+Set3=0.591|CV Accuracy(5)=0.594, CV s.d.=0.003
+Average Accuracy=0.589
+Procesing time(sec)=1.75
+
+Model: Decision Tree
+C=10.0 Iter=10000
+Training data:(40000, 54)Test data:(10000, 54)random_code:20
+Set1=0.847|CV Accuracy(5)=0.83, CV s.d.=0.004
+Training data:(40000, 54)Test data:(10000, 54)random_code:21
+Set2=0.843|CV Accuracy(5)=0.834, CV s.d.=0.002
+Training data:(40000, 54)Test data:(10000, 54)random_code:22
+Set3=0.845|CV Accuracy(5)=0.835, CV s.d.=0.001
+Average Accuracy=0.845
+Procesing time(sec)=29.06
+
+Model: Gradient Boosting
+C=10.0 Iter=10000
+Training data:(40000, 54)Test data:(10000, 54)random_code:20
+Set1=0.749|CV Accuracy(5)=0.751, CV s.d.=0.003
+Training data:(40000, 54)Test data:(10000, 54)random_code:21
+Set2=0.741|CV Accuracy(5)=0.751, CV s.d.=0.007
+Training data:(40000, 54)Test data:(10000, 54)random_code:22
+Set3=0.755|CV Accuracy(5)=0.754, CV s.d.=0.007
+Average Accuracy=0.748
+Procesing time(sec)=487.15
+
+---------------------------------------------------
+test data fraction=0.5
+Model: Linear SVC
+C=10.0 Iter=10000
+Training data:(25000, 54)Test data:(25000, 54)random_code:50
+Set1=0.595|CV Accuracy(5)=0.595, CV s.d.=0.008
+Training data:(25000, 54)Test data:(25000, 54)random_code:51
+Set2=0.6|CV Accuracy(5)=0.589, CV s.d.=0.004
+Training data:(25000, 54)Test data:(25000, 54)random_code:52
+Set3=0.592|CV Accuracy(5)=0.598, CV s.d.=0.007
+Average Accuracy=0.596
+Procesing time(sec)=1.96
+
+Model: Naive Bayes
+C=10.0 Iter=10000
+Training data:(25000, 54)Test data:(25000, 54)random_code:50
+Set1=0.649|CV Accuracy(5)=0.644, CV s.d.=0.004
+Training data:(25000, 54)Test data:(25000, 54)random_code:51
+Set2=0.651|CV Accuracy(5)=0.648, CV s.d.=0.005
+Training data:(25000, 54)Test data:(25000, 54)random_code:52
+Set3=0.647|CV Accuracy(5)=0.643, CV s.d.=0.007
+Average Accuracy=0.649
+Procesing time(sec)=0.57
+
+Model: Logistic Regression
+C=10.0 Iter=10000
+Training data:(25000, 54)Test data:(25000, 54)random_code:50
+Set1=0.593|CV Accuracy(5)=0.592, CV s.d.=0.007
+Training data:(25000, 54)Test data:(25000, 54)random_code:51
+Set2=0.596|CV Accuracy(5)=0.587, CV s.d.=0.004
+Training data:(25000, 54)Test data:(25000, 54)random_code:52
+Set3=0.593|CV Accuracy(5)=0.595, CV s.d.=0.006
+Average Accuracy=0.594
+Procesing time(sec)=1.46
+
+Model: Decision Tree
+C=10.0 Iter=10000
+Training data:(25000, 54)Test data:(25000, 54)random_code:50
+Set1=0.819|CV Accuracy(5)=0.804, CV s.d.=0.004
+Training data:(25000, 54)Test data:(25000, 54)random_code:51
+Set2=0.818|CV Accuracy(5)=0.807, CV s.d.=0.005
+Training data:(25000, 54)Test data:(25000, 54)random_code:52
+Set3=0.824|CV Accuracy(5)=0.807, CV s.d.=0.007
+Average Accuracy=0.82
+Procesing time(sec)=17.69
+
+Model: Gradient Boosting
+C=10.0 Iter=10000
+Training data:(25000, 54)Test data:(25000, 54)random_code:50
+Set1=0.76|CV Accuracy(5)=0.754, CV s.d.=0.007
+Training data:(25000, 54)Test data:(25000, 54)random_code:51
+Set2=0.765|CV Accuracy(5)=0.759, CV s.d.=0.004
+Training data:(25000, 54)Test data:(25000, 54)random_code:52
+Set3=0.758|CV Accuracy(5)=0.759, CV s.d.=0.01
+Average Accuracy=0.761
+Procesing time(sec)=305.26
+
+---------------------------------------------------
+test data fraction=0.8
+Model: Linear SVC
+C=10.0 Iter=10000
+Training data:(10000, 54)Test data:(40000, 54)random_code:80
+Set1=0.595|CV Accuracy(5)=0.591, CV s.d.=0.012
+Training data:(10000, 54)Test data:(40000, 54)random_code:81
+Set2=0.595|CV Accuracy(5)=0.587, CV s.d.=0.012
+Training data:(10000, 54)Test data:(40000, 54)random_code:82
+Set3=0.591|CV Accuracy(5)=0.595, CV s.d.=0.013
+Average Accuracy=0.594
+Procesing time(sec)=0.71
+
+Model: Naive Bayes
+C=10.0 Iter=10000
+Training data:(10000, 54)Test data:(40000, 54)random_code:80
+Set1=0.645|CV Accuracy(5)=0.652, CV s.d.=0.005
+Training data:(10000, 54)Test data:(40000, 54)random_code:81
+Set2=0.641|CV Accuracy(5)=0.642, CV s.d.=0.009
+Training data:(10000, 54)Test data:(40000, 54)random_code:82
+Set3=0.647|CV Accuracy(5)=0.65, CV s.d.=0.002
+Average Accuracy=0.644
+Procesing time(sec)=0.34
+
+Model: Logistic Regression
+C=10.0 Iter=10000
+Training data:(10000, 54)Test data:(40000, 54)random_code:80
+Set1=0.593|CV Accuracy(5)=0.589, CV s.d.=0.011
+Training data:(10000, 54)Test data:(40000, 54)random_code:81
+Set2=0.591|CV Accuracy(5)=0.586, CV s.d.=0.011
+Training data:(10000, 54)Test data:(40000, 54)random_code:82
+Set3=0.59|CV Accuracy(5)=0.592, CV s.d.=0.011
+Average Accuracy=0.591
+Procesing time(sec)=0.88
+
+Model: Decision Tree
+C=10.0 Iter=10000
+Training data:(10000, 54)Test data:(40000, 54)random_code:80
+Set1=0.771|CV Accuracy(5)=0.755, CV s.d.=0.018
+Training data:(10000, 54)Test data:(40000, 54)random_code:81
+Set2=0.767|CV Accuracy(5)=0.77, CV s.d.=0.003
+Training data:(10000, 54)Test data:(40000, 54)random_code:82
+Set3=0.764|CV Accuracy(5)=0.758, CV s.d.=0.009
+Average Accuracy=0.767
+Procesing time(sec)=7.02
+
+Model: Gradient Boosting
+C=10.0 Iter=10000
+Training data:(10000, 54)Test data:(40000, 54)random_code:80
+Set1=0.755|CV Accuracy(5)=0.75, CV s.d.=0.006
+Training data:(10000, 54)Test data:(40000, 54)random_code:81
+Set2=0.752|CV Accuracy(5)=0.749, CV s.d.=0.012
+Training data:(10000, 54)Test data:(40000, 54)random_code:82
+Set3=0.756|CV Accuracy(5)=0.75, CV s.d.=0.011
+Average Accuracy=0.754
+Procesing time(sec)=124.01
+
