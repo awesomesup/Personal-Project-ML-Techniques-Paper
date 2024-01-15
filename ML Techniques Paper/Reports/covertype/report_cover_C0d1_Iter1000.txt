@@ -1,0 +1,110 @@
+Data file:C:/Users/prayu/LIDAR_UTILS/tmp/PROJECT/DATA/covertype/cover.csv
+Features not used:[]
+Categories transformed:
+[]
+
+---------------------------------------------------
+test data fraction=0.2
+Model: Linear SVC
+C=0.1 Iter=1000
+Training data:(40000, 54)Test data:(10000, 54)random_code:20
+Set1=0.516|CV Accuracy(5)=0.502, CV s.d.=0.013
+Training data:(40000, 54)Test data:(10000, 54)random_code:21
+Set2=0.565|CV Accuracy(5)=0.515, CV s.d.=0.026
+Training data:(40000, 54)Test data:(10000, 54)random_code:22
+Set3=0.519|CV Accuracy(5)=0.53, CV s.d.=0.011
+Average Accuracy=0.533
+Procesing time(sec)=29.17
+
+Model: Naive Bayes
+C=0.1 Iter=1000
+Training data:(40000, 54)Test data:(10000, 54)random_code:20
+Set1=0.672|CV Accuracy(5)=0.665, CV s.d.=0.005
+Training data:(40000, 54)Test data:(10000, 54)random_code:21
+Set2=0.663|CV Accuracy(5)=0.666, CV s.d.=0.004
+Training data:(40000, 54)Test data:(10000, 54)random_code:22
+Set3=0.667|CV Accuracy(5)=0.665, CV s.d.=0.003
+Average Accuracy=0.667
+Procesing time(sec)=0.81
+
+Model: Logistic Regression
+C=0.1 Iter=1000
+Training data:(40000, 54)Test data:(10000, 54)random_code:20
+Set1=0.752|CV Accuracy(5)=0.752, CV s.d.=0.005
+Training data:(40000, 54)Test data:(10000, 54)random_code:21
+Set2=0.749|CV Accuracy(5)=0.754, CV s.d.=0.006
+Training data:(40000, 54)Test data:(10000, 54)random_code:22
+Set3=0.752|CV Accuracy(5)=0.753, CV s.d.=0.003
+Average Accuracy=0.751
+Procesing time(sec)=6.35
+
+---------------------------------------------------
+test data fraction=0.5
+Model: Linear SVC
+C=0.1 Iter=1000
+Training data:(25000, 54)Test data:(25000, 54)random_code:50
+Set1=0.496|CV Accuracy(5)=0.515, CV s.d.=0.022
+Training data:(25000, 54)Test data:(25000, 54)random_code:51
+Set2=0.528|CV Accuracy(5)=0.518, CV s.d.=0.011
+Training data:(25000, 54)Test data:(25000, 54)random_code:52
+Set3=0.519|CV Accuracy(5)=0.522, CV s.d.=0.03
+Average Accuracy=0.514
+Procesing time(sec)=18.89
+
+Model: Naive Bayes
+C=0.1 Iter=1000
+Training data:(25000, 54)Test data:(25000, 54)random_code:50
+Set1=0.666|CV Accuracy(5)=0.663, CV s.d.=0.007
+Training data:(25000, 54)Test data:(25000, 54)random_code:51
+Set2=0.67|CV Accuracy(5)=0.663, CV s.d.=0.003
+Training data:(25000, 54)Test data:(25000, 54)random_code:52
+Set3=0.665|CV Accuracy(5)=0.667, CV s.d.=0.007
+Average Accuracy=0.667
+Procesing time(sec)=0.59
+
+Model: Logistic Regression
+C=0.1 Iter=1000
+Training data:(25000, 54)Test data:(25000, 54)random_code:50
+Set1=0.754|CV Accuracy(5)=0.749, CV s.d.=0.005
+Training data:(25000, 54)Test data:(25000, 54)random_code:51
+Set2=0.748|CV Accuracy(5)=0.75, CV s.d.=0.007
+Training data:(25000, 54)Test data:(25000, 54)random_code:52
+Set3=0.755|CV Accuracy(5)=0.747, CV s.d.=0.004
+Average Accuracy=0.752
+Procesing time(sec)=3.89
+
+---------------------------------------------------
+test data fraction=0.8
+Model: Linear SVC
+C=0.1 Iter=1000
+Training data:(10000, 54)Test data:(40000, 54)random_code:80
+Set1=0.486|CV Accuracy(5)=0.517, CV s.d.=0.032
+Training data:(10000, 54)Test data:(40000, 54)random_code:81
+Set2=0.565|CV Accuracy(5)=0.519, CV s.d.=0.024
+Training data:(10000, 54)Test data:(40000, 54)random_code:82
+Set3=0.489|CV Accuracy(5)=0.532, CV s.d.=0.037
+Average Accuracy=0.513
+Procesing time(sec)=5.87
+
+Model: Naive Bayes
+C=0.1 Iter=1000
+Training data:(10000, 54)Test data:(40000, 54)random_code:80
+Set1=0.658|CV Accuracy(5)=0.667, CV s.d.=0.012
+Training data:(10000, 54)Test data:(40000, 54)random_code:81
+Set2=0.659|CV Accuracy(5)=0.66, CV s.d.=0.007
+Training data:(10000, 54)Test data:(40000, 54)random_code:82
+Set3=0.664|CV Accuracy(5)=0.667, CV s.d.=0.013
+Average Accuracy=0.66
+Procesing time(sec)=0.34
+
+Model: Logistic Regression
+C=0.1 Iter=1000
+Training data:(10000, 54)Test data:(40000, 54)random_code:80
+Set1=0.746|CV Accuracy(5)=0.753, CV s.d.=0.009
+Training data:(10000, 54)Test data:(40000, 54)random_code:81
+Set2=0.745|CV Accuracy(5)=0.743, CV s.d.=0.002
+Training data:(10000, 54)Test data:(40000, 54)random_code:82
+Set3=0.745|CV Accuracy(5)=0.746, CV s.d.=0.009
+Average Accuracy=0.745
+Procesing time(sec)=1.76
+

@@ -1,0 +1,110 @@
+Data file:adult.data
+Features not used:['marital-status', 'relationship', 'education', 'sex']
+Categories transformed:
+['workclass', 'occupation', 'race', 'native-country']
+
+---------------------------------------------------
+test data fraction=0.2
+Model: Linear SVC
+C=0.01 Iter=1000
+Training data:(26048, 77)Test data:(6512, 77)random_code:20
+Set1=0.785|CV Accuracy(5)=0.671, CV s.d.=0.216
+Training data:(26048, 77)Test data:(6512, 77)random_code:21
+Set2=0.269|CV Accuracy(5)=0.781, CV s.d.=0.012
+Training data:(26048, 77)Test data:(6512, 77)random_code:22
+Set3=0.795|CV Accuracy(5)=0.712, CV s.d.=0.136
+Average Accuracy=0.616
+Procesing time(sec)=16.88
+
+Model: Naive Bayes
+C=0.01 Iter=1000
+Training data:(26048, 77)Test data:(6512, 77)random_code:20
+Set1=0.791|CV Accuracy(5)=0.797, CV s.d.=0.003
+Training data:(26048, 77)Test data:(6512, 77)random_code:21
+Set2=0.798|CV Accuracy(5)=0.795, CV s.d.=0.003
+Training data:(26048, 77)Test data:(6512, 77)random_code:22
+Set3=0.802|CV Accuracy(5)=0.793, CV s.d.=0.003
+Average Accuracy=0.797
+Procesing time(sec)=2.32
+
+Model: Logistic Regression
+C=0.01 Iter=1000
+Training data:(26048, 77)Test data:(6512, 77)random_code:20
+Set1=0.792|CV Accuracy(5)=0.798, CV s.d.=0.003
+Training data:(26048, 77)Test data:(6512, 77)random_code:21
+Set2=0.796|CV Accuracy(5)=0.797, CV s.d.=0.004
+Training data:(26048, 77)Test data:(6512, 77)random_code:22
+Set3=0.805|CV Accuracy(5)=0.795, CV s.d.=0.002
+Average Accuracy=0.798
+Procesing time(sec)=2.79
+
+---------------------------------------------------
+test data fraction=0.5
+Model: Linear SVC
+C=0.01 Iter=1000
+Training data:(16280, 77)Test data:(16280, 77)random_code:50
+Set1=0.766|CV Accuracy(5)=0.786, CV s.d.=0.01
+Training data:(16280, 77)Test data:(16280, 77)random_code:51
+Set2=0.276|CV Accuracy(5)=0.695, CV s.d.=0.187
+Training data:(16280, 77)Test data:(16280, 77)random_code:52
+Set3=0.788|CV Accuracy(5)=0.785, CV s.d.=0.009
+Average Accuracy=0.61
+Procesing time(sec)=10.28
+
+Model: Naive Bayes
+C=0.01 Iter=1000
+Training data:(16280, 77)Test data:(16280, 77)random_code:50
+Set1=0.794|CV Accuracy(5)=0.797, CV s.d.=0.006
+Training data:(16280, 77)Test data:(16280, 77)random_code:51
+Set2=0.793|CV Accuracy(5)=0.795, CV s.d.=0.005
+Training data:(16280, 77)Test data:(16280, 77)random_code:52
+Set3=0.793|CV Accuracy(5)=0.796, CV s.d.=0.007
+Average Accuracy=0.793
+Procesing time(sec)=1.63
+
+Model: Logistic Regression
+C=0.01 Iter=1000
+Training data:(16280, 77)Test data:(16280, 77)random_code:50
+Set1=0.796|CV Accuracy(5)=0.799, CV s.d.=0.005
+Training data:(16280, 77)Test data:(16280, 77)random_code:51
+Set2=0.794|CV Accuracy(5)=0.799, CV s.d.=0.004
+Training data:(16280, 77)Test data:(16280, 77)random_code:52
+Set3=0.794|CV Accuracy(5)=0.798, CV s.d.=0.004
+Average Accuracy=0.795
+Procesing time(sec)=2.16
+
+---------------------------------------------------
+test data fraction=0.8
+Model: Linear SVC
+C=0.01 Iter=1000
+Training data:(6512, 77)Test data:(26048, 77)random_code:80
+Set1=0.29|CV Accuracy(5)=0.674, CV s.d.=0.216
+Training data:(6512, 77)Test data:(26048, 77)random_code:81
+Set2=0.787|CV Accuracy(5)=0.586, CV s.d.=0.244
+Training data:(6512, 77)Test data:(26048, 77)random_code:82
+Set3=0.778|CV Accuracy(5)=0.58, CV s.d.=0.239
+Average Accuracy=0.618
+Procesing time(sec)=3.56
+
+Model: Naive Bayes
+C=0.01 Iter=1000
+Training data:(6512, 77)Test data:(26048, 77)random_code:80
+Set1=0.794|CV Accuracy(5)=0.803, CV s.d.=0.011
+Training data:(6512, 77)Test data:(26048, 77)random_code:81
+Set2=0.798|CV Accuracy(5)=0.799, CV s.d.=0.007
+Training data:(6512, 77)Test data:(26048, 77)random_code:82
+Set3=0.797|CV Accuracy(5)=0.795, CV s.d.=0.009
+Average Accuracy=0.796
+Procesing time(sec)=0.96
+
+Model: Logistic Regression
+C=0.01 Iter=1000
+Training data:(6512, 77)Test data:(26048, 77)random_code:80
+Set1=0.796|CV Accuracy(5)=0.802, CV s.d.=0.011
+Training data:(6512, 77)Test data:(26048, 77)random_code:81
+Set2=0.799|CV Accuracy(5)=0.799, CV s.d.=0.003
+Training data:(6512, 77)Test data:(26048, 77)random_code:82
+Set3=0.799|CV Accuracy(5)=0.794, CV s.d.=0.008
+Average Accuracy=0.798
+Procesing time(sec)=1.5
+

@@ -1,0 +1,77 @@
+Data file:adult.data
+Features not used:['marital-status', 'relationship', 'education', 'sex']
+Categories transformed:
+['workclass', 'occupation', 'race', 'native-country']
+
+---------------------------------------------------
+test data fraction=0.2
+Model: Linear SVC
+C=1000.0 Iter=10000
+Training data:(26048, 77)Test data:(6512, 77)random_code:20
+Set1=0.783|CV Accuracy(5)=0.792, CV s.d.=0.001
+Training data:(26048, 77)Test data:(6512, 77)random_code:21
+Set2=0.789|CV Accuracy(5)=0.791, CV s.d.=0.001
+Training data:(26048, 77)Test data:(6512, 77)random_code:22
+Set3=0.797|CV Accuracy(5)=0.79, CV s.d.=0.002
+Average Accuracy=0.79
+Procesing time(sec)=99.93
+
+Model: Logistic Regression
+C=1000.0 Iter=10000
+Training data:(26048, 77)Test data:(6512, 77)random_code:20
+Set1=0.786|CV Accuracy(5)=0.794, CV s.d.=0.003
+Training data:(26048, 77)Test data:(6512, 77)random_code:21
+Set2=0.792|CV Accuracy(5)=0.792, CV s.d.=0.002
+Training data:(26048, 77)Test data:(6512, 77)random_code:22
+Set3=0.797|CV Accuracy(5)=0.791, CV s.d.=0.003
+Average Accuracy=0.792
+Procesing time(sec)=1.11
+
+---------------------------------------------------
+test data fraction=0.5
+Model: Linear SVC
+C=1000.0 Iter=10000
+Training data:(16280, 77)Test data:(16280, 77)random_code:50
+Set1=0.79|CV Accuracy(5)=0.796, CV s.d.=0.003
+Training data:(16280, 77)Test data:(16280, 77)random_code:51
+Set2=0.791|CV Accuracy(5)=0.792, CV s.d.=0.003
+Training data:(16280, 77)Test data:(16280, 77)random_code:52
+Set3=0.788|CV Accuracy(5)=0.797, CV s.d.=0.001
+Average Accuracy=0.79
+Procesing time(sec)=59.16
+
+Model: Logistic Regression
+C=1000.0 Iter=10000
+Training data:(16280, 77)Test data:(16280, 77)random_code:50
+Set1=0.788|CV Accuracy(5)=0.794, CV s.d.=0.003
+Training data:(16280, 77)Test data:(16280, 77)random_code:51
+Set2=0.793|CV Accuracy(5)=0.792, CV s.d.=0.003
+Training data:(16280, 77)Test data:(16280, 77)random_code:52
+Set3=0.789|CV Accuracy(5)=0.795, CV s.d.=0.001
+Average Accuracy=0.79
+Procesing time(sec)=0.86
+
+---------------------------------------------------
+test data fraction=0.8
+Model: Linear SVC
+C=1000.0 Iter=10000
+Training data:(6512, 77)Test data:(26048, 77)random_code:80
+Set1=0.792|CV Accuracy(5)=0.798, CV s.d.=0.005
+Training data:(6512, 77)Test data:(26048, 77)random_code:81
+Set2=0.793|CV Accuracy(5)=0.786, CV s.d.=0.005
+Training data:(6512, 77)Test data:(26048, 77)random_code:82
+Set3=0.792|CV Accuracy(5)=0.79, CV s.d.=0.006
+Average Accuracy=0.792
+Procesing time(sec)=20.41
+
+Model: Logistic Regression
+C=1000.0 Iter=10000
+Training data:(6512, 77)Test data:(26048, 77)random_code:80
+Set1=0.79|CV Accuracy(5)=0.797, CV s.d.=0.006
+Training data:(6512, 77)Test data:(26048, 77)random_code:81
+Set2=0.792|CV Accuracy(5)=0.786, CV s.d.=0.002
+Training data:(6512, 77)Test data:(26048, 77)random_code:82
+Set3=0.791|CV Accuracy(5)=0.789, CV s.d.=0.004
+Average Accuracy=0.791
+Procesing time(sec)=0.81
+
